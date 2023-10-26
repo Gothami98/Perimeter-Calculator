@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:text="Perimeter Calculator"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="126dp"
+            android:layout_below="@+id/text_1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:src="@drawable/img" />
+
+        <ImageButton
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="126dp"
+            android:layout_below="@+id/text_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_1" />
+
+        <TextView
+            android:id="@+id/text_"
+            android:layout_width="191dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="194dp"
+            android:layout_marginEnd="192dp"
+            android:layout_marginRight="192dp"
+            android:layout_marginBottom="16dp"
+            android:text="Perimeter of square"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="149dp"
+            android:layout_height="57dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="183dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Perimeter of a Parallelogram"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:layout_below="@+id/text_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="186dp"
+            android:layout_marginRight="242dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="144dp"
+            android:layout_height="66dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="219dp"
+            android:layout_marginRight="219dp"
+            android:layout_marginBottom="16dp"
+            android:text="Perimeter of a Rectangle"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="126dp"
+            android:layout_below="@+id/text_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="186dp"
+            android:layout_marginRight="46dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="144dp"
+            android:layout_height="66dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="364dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="16dp"
+            android:text="Perimeter of a Rhombus"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn_6"
+            android:layout_width="wrap_content"
+            android:layout_height="117dp"
+            android:layout_below="@+id/text_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="381dp"
+            android:layout_marginRight="251dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_4"
+            />
+
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="551dp"
+            android:layout_marginEnd="214dp"
+            android:layout_marginRight="214dp"
+            android:layout_marginBottom="16dp"
+            android:text="Perimeter of a Trapezoid"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn_7"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_below="@+id/text_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="381dp"
+            android:layout_marginRight="49dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_5" />
+
+        <TextView
+            android:id="@+id/text_7"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="542dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="16dp"
+            android:text="Perimeter of a Triangle"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn_8"
+            android:layout_width="wrap_content"
+            android:layout_height="126dp"
+            android:layout_below="@+id/text_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="564dp"
+            android:layout_marginRight="202dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_6" />
+
+        <TextView
+            android:id="@+id/text_8"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="644dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="16dp"
+            android:text="Perimeter of a Circle "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
